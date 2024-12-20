@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsNew>false</IsNew>
+  <IsDeleted>false</IsDeleted>
+  <IsChanged>true</IsChanged>
+  <FirstNodeSerialized>
+    <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+    <ModelClassString>StatSoft.DataMinerRecipe.Model.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+    <ViewClassString>StatSoft.DataMinerRecipe.View.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+    <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+    <AdvanceTabsString>
+      <string>StatSoft.DataMinerRecipe.View.DataDefinitionAdvance1,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</string>
+    </AdvanceTabsString>
+    <ID>DataDefinition</ID>
+    <NodeName>Data preparation</NodeName>
+    <Color>Yellow</Color>
+    <NextSiblingNode>
+      <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+      <ModelClassString>StatSoft.DataMinerRecipe.Model.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+      <ViewClassString>StatSoft.DataMinerRecipe.View.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+      <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+      <ID>DataCleaning</ID>
+      <NodeName>Data for analysis</NodeName>
+      <Color>Red</Color>
+    </NextSiblingNode>
+  </FirstNodeSerialized>
+  <Steps>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <AdvanceTabsString>
+          <string>StatSoft.DataMinerRecipe.View.DataDefinitionAdvance1,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</string>
+        </AdvanceTabsString>
+        <ID>DataDefinition</ID>
+        <NodeName>Data preparation</NodeName>
+        <Color>Yellow</Color>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>DataCleaning</ID>
+          <NodeName>Data for analysis</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+      </key>
+      <Value xsi:type="DataDefinition">
+        <IsNew>false</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T12:04:31.8474273+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T12:04:31.8474273+05:30</DateTimeStamp>
+        </Option>
+        <Variables>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>Pregnancies</m_VariableName>
+              <m_VariableNumber>1</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>Pregnancies</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>1</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>Glucose</m_VariableName>
+              <m_VariableNumber>2</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>Glucose</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>2</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>Insulin</m_VariableName>
+              <m_VariableNumber>5</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>Insulin</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>5</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>BMI</m_VariableName>
+              <m_VariableNumber>6</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>BMI</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>6</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>DiabetesPedigreeFunction</m_VariableName>
+              <m_VariableNumber>7</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>DiabetesPedigreeFunction</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>7</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>Age</m_VariableName>
+              <m_VariableNumber>8</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>Age</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Input</Role>
+              <VariableType>Continuous</VariableType>
+              <VariableNumber>8</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+          <ObjectWithKey>
+            <key xsi:type="VariableDataKey">
+              <m_VariableName>Outcome</m_VariableName>
+              <m_VariableNumber>9</m_VariableNumber>
+            </key>
+            <Value xsi:type="VariableData">
+              <IsNew>true</IsNew>
+              <IsDeleted>false</IsDeleted>
+              <IsChanged>false</IsChanged>
+              <VariableName>Outcome</VariableName>
+              <LowerSpecLimit>NaN</LowerSpecLimit>
+              <UpperSpecLimit>NaN</UpperSpecLimit>
+              <Role>Output</Role>
+              <VariableType>Categorical</VariableType>
+              <VariableNumber>9</VariableNumber>
+            </Value>
+          </ObjectWithKey>
+        </Variables>
+        <LabelVariables />
+        <DataFile>
+          <IsSubSampleUsed>false</IsSubSampleUsed>
+          <IsDataFileInResultWorkbook>false</IsDataFileInResultWorkbook>
+          <DataFileLarge>false</DataFileLarge>
+          <RemoveDuplicateCases>true</RemoveDuplicateCases>
+          <DuplicateCasesDefinition>
+            <ListOfVariables>
+              <anyType xsi:type="xsd:string">Pregnancies</anyType>
+              <anyType xsi:type="xsd:string">Glucose</anyType>
+              <anyType xsi:type="xsd:string">Insulin</anyType>
+              <anyType xsi:type="xsd:string">BMI</anyType>
+              <anyType xsi:type="xsd:string">DiabetesPedigreeFunction</anyType>
+              <anyType xsi:type="xsd:string">Age</anyType>
+              <anyType xsi:type="xsd:string">Outcome</anyType>
+            </ListOfVariables>
+            <UseCaseNames>false</UseCaseNames>
+          </DuplicateCasesDefinition>
+          <Outliers>
+            <CategoricalTestType>scCategorical</CategoricalTestType>
+            <ContinuousTestType>scNormalTwoSided</ContinuousTestType>
+            <CategoricalRecodeType>scRecodeToMD</CategoricalRecodeType>
+            <ContinuousRecodeType>scRecodeToMD</ContinuousRecodeType>
+            <Parameter>3</Parameter>
+            <TreatNoResponseForCategoricalVariablesAsCategory>false</TreatNoResponseForCategoricalVariablesAsCategory>
+            <BlankCategory>New category</BlankCategory>
+            <NoResponseCategory>No response</NoResponseCategory>
+          </Outliers>
+          <MissingData>
+            <NonNumericValueAsMD>false</NonNumericValueAsMD>
+            <WhiteSpaceAsMD>true</WhiteSpaceAsMD>
+            <CopyFormatting>false</CopyFormatting>
+            <ContinuousMDAction>RecodeToMean</ContinuousMDAction>
+            <CategoricalMDAction>RecodeToFrequentCategory</CategoricalMDAction>
+            <AutomaticImputation>false</AutomaticImputation>
+          </MissingData>
+          <ApplyMissingData>true</ApplyMissingData>
+          <RemoveOutlier>false</RemoveOutlier>
+          <ApplyValidRange>false</ApplyValidRange>
+          <NumberOfCasesInOriginalData>768</NumberOfCasesInOriginalData>
+          <NumberOfVariablesInOriginalData>9</NumberOfVariablesInOriginalData>
+          <NumberOfCasesInTestingData>0</NumberOfCasesInTestingData>
+          <NumberOfCasesInTrainingData>0</NumberOfCasesInTrainingData>
+          <DataInWorkbook>diabetes</DataInWorkbook>
+          <InputDataTypeForProject>Spreadsheet</InputDataTypeForProject>
+        </DataFile>
+        <SelectedPredictors>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>Pregnancies</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>1</VariableNumber>
+          </anyType>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>Glucose</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>2</VariableNumber>
+          </anyType>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>Insulin</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>5</VariableNumber>
+          </anyType>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>BMI</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>6</VariableNumber>
+          </anyType>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>DiabetesPedigreeFunction</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>7</VariableNumber>
+          </anyType>
+          <anyType xsi:type="VariableData">
+            <IsNew>true</IsNew>
+            <IsDeleted>false</IsDeleted>
+            <IsChanged>false</IsChanged>
+            <VariableName>Age</VariableName>
+            <LowerSpecLimit>NaN</LowerSpecLimit>
+            <UpperSpecLimit>NaN</UpperSpecLimit>
+            <Role>Input</Role>
+            <VariableType>Continuous</VariableType>
+            <VariableNumber>8</VariableNumber>
+          </anyType>
+        </SelectedPredictors>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>DataCleaning</ID>
+        <NodeName>Data for analysis</NodeName>
+        <Color>Red</Color>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>DataRedundancy</ID>
+          <NodeName>Data redundancy</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DataDefinition,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <AdvanceTabsString>
+            <string>StatSoft.DataMinerRecipe.View.DataDefinitionAdvance1,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</string>
+          </AdvanceTabsString>
+          <ID>DataDefinition</ID>
+          <NodeName>Data preparation</NodeName>
+          <Color>Yellow</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="DataCleaning">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>false</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:20:45.1453957+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:20:45.1453957+05:30</DateTimeStamp>
+        </Option>
+        <ValidationSampling>
+          <SamplingMethod>NotDefined</SamplingMethod>
+          <PercentageCase>-1</PercentageCase>
+          <IsClassificationCodeText>true</IsClassificationCodeText>
+        </ValidationSampling>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.EvaluationEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.Evaluation,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.EvaluationView,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>Evaluation</ID>
+        <VariableName>Outcome</VariableName>
+        <NodeName>Evaluation</NodeName>
+        <Color>Red</Color>
+        <ParentNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>Target</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Outcome</NodeName>
+          <Color>Red</Color>
+        </ParentNode>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DeploymentEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Deployment,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DeploymentView,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>Deployment</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Deployment</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>ModelBuilding</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Model building</NodeName>
+          <Color>Red</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="Evaluation">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:49:36.2313034+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:49:36.2313034+05:30</DateTimeStamp>
+        </Option>
+        <SelectedModelIDForDeployment />
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.FeatureSelectionAndRootCauseAnalysisEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.FeatureSelectionAndRootCauseAnalysis,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.FeatureSelection,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>FeatureSelectionAndRootCauseAnalysis</ID>
+        <VariableName>Outcome</VariableName>
+        <NodeName>Important variables</NodeName>
+        <Color>Red</Color>
+        <ParentNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>Target</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Outcome</NodeName>
+          <Color>Red</Color>
+        </ParentNode>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>ModelBuilding</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Model building</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+      </key>
+      <Value xsi:type="FeatureSelectionAndRootCauseAnalysis">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:49:36.1663061+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:49:36.1663061+05:30</DateTimeStamp>
+        </Option>
+        <SelectedPredictors />
+        <DictionaryCollection />
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <ID>TargetVariable</ID>
+        <NodeName>Target variable</NodeName>
+        <Color>Red</Color>
+        <FirstChildNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>Target</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Outcome</NodeName>
+          <Color>Red</Color>
+        </FirstChildNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>DataRedundancy</ID>
+          <NodeName>Data redundancy</NodeName>
+          <Color>Red</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="TargetVariable">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:16:06.0523403+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:16:06.0523403+05:30</DateTimeStamp>
+        </Option>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.ModelBuilding,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>ModelBuilding</ID>
+        <VariableName>Outcome</VariableName>
+        <NodeName>Model building</NodeName>
+        <Color>Red</Color>
+        <ParentNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>Target</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Outcome</NodeName>
+          <Color>Red</Color>
+        </ParentNode>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.EvaluationEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Evaluation,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.EvaluationView,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>Evaluation</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Evaluation</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.FeatureSelectionAndRootCauseAnalysisEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.FeatureSelectionAndRootCauseAnalysis,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.FeatureSelection,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>FeatureSelectionAndRootCauseAnalysis</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Important variables</NodeName>
+          <Color>Red</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="ModelBuilding">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:49:36.2023141+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:49:36.2023141+05:30</DateTimeStamp>
+        </Option>
+        <ModelID>1</ModelID>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <ID>Target</ID>
+        <VariableName>Outcome</VariableName>
+        <NodeName>Outcome</NodeName>
+        <Color>Red</Color>
+        <ParentNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>TargetVariable</ID>
+          <NodeName>Target variable</NodeName>
+          <Color>Red</Color>
+        </ParentNode>
+        <FirstChildNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.FeatureSelectionAndRootCauseAnalysisEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.FeatureSelectionAndRootCauseAnalysis,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.FeatureSelection,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>FeatureSelectionAndRootCauseAnalysis</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Important variables</NodeName>
+          <Color>Red</Color>
+        </FirstChildNode>
+      </key>
+      <Value xsi:type="Target">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:49:36.0763112+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:49:36.0763112+05:30</DateTimeStamp>
+        </Option>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.DeploymentEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.Deployment,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.DeploymentView,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>Deployment</ID>
+        <VariableName>Outcome</VariableName>
+        <NodeName>Deployment</NodeName>
+        <Color>Red</Color>
+        <ParentNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.Target,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>Target</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Outcome</NodeName>
+          <Color>Red</Color>
+        </ParentNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.EvaluationEngine,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.Evaluation,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.EvaluationView,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>Evaluation</ID>
+          <VariableName>Outcome</VariableName>
+          <NodeName>Evaluation</NodeName>
+          <Color>Red</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="Deployment">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:49:36.260461+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:49:36.260461+05:30</DateTimeStamp>
+        </Option>
+        <WriteBackToDeployedFile>true</WriteBackToDeployedFile>
+      </Value>
+    </ObjectWithKey>
+    <ObjectWithKey>
+      <key xsi:type="NodeTag">
+        <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+        <ModelClassString>StatSoft.DataMinerRecipe.Model.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+        <ViewClassString>StatSoft.DataMinerRecipe.View.DataRedundancy,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+        <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+        <ID>DataRedundancy</ID>
+        <NodeName>Data redundancy</NodeName>
+        <Color>Red</Color>
+        <NextSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.TargetVariable,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <ID>TargetVariable</ID>
+          <NodeName>Target variable</NodeName>
+          <Color>Red</Color>
+        </NextSiblingNode>
+        <PreviousSiblingNode>
+          <EngineClassString>StatSoft.DataMinerRecipe.Engine.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</EngineClassString>
+          <ModelClassString>StatSoft.DataMinerRecipe.Model.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ModelClassString>
+          <ViewClassString>StatSoft.DataMinerRecipe.View.DataCleaning,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</ViewClassString>
+          <OptionTabString>StatSoft.DataMinerRecipe.View.StepOptionTab,StatSoftSolution, Version=14.0.1.25, Culture=neutral, PublicKeyToken=null</OptionTabString>
+          <ID>DataCleaning</ID>
+          <NodeName>Data for analysis</NodeName>
+          <Color>Red</Color>
+        </PreviousSiblingNode>
+      </key>
+      <Value xsi:type="DataRedundancy">
+        <IsNew>true</IsNew>
+        <IsDeleted>false</IsDeleted>
+        <IsChanged>true</IsChanged>
+        <IsValidated>false</IsValidated>
+        <Option>
+          <m_DateTimeStamp>2024-12-20T11:16:06.0463391+05:30</m_DateTimeStamp>
+          <DateTimeStamp>2024-12-20T11:16:06.0463391+05:30</DateTimeStamp>
+        </Option>
+      </Value>
+    </ObjectWithKey>
+  </Steps>
+  <ProjectFileNames>
+    <ProjectFileName>C:\Users\LHCP\Desktop\statistica\DataMinerRecipeProject70.dmrproj</ProjectFileName>
+    <ProjectWorkbookName>C:\Users\LHCP\Desktop\statistica\DataMinerRecipeProject70.stw</ProjectWorkbookName>
+  </ProjectFileNames>
+  <MultipleTargetVariableDeployment>0</MultipleTargetVariableDeployment>
+  <ProjectIdentifier>1</ProjectIdentifier>
+  <ProjectVersionName>V8 MR1</ProjectVersionName>
+  <ProjectVersionNumber>1</ProjectVersionNumber>
+</Project>
